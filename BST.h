@@ -17,12 +17,14 @@ class BST
 {
 private:
     Node_t *root;
-    void addHelper(Node *root, double value);
-    void displayHelper(Node *temp);
+    void addHelper(Node_t *, double);
+    void displayHelper(Node_t *);
+    Node_t *getNodeHelper(Node_t *, double);
 
 public:
     BST();
-    void addElement(double value);
+    void addElement(double);
+    Node_t *getNode(double);
     void display();
 };
 #endif

@@ -10,5 +10,7 @@ int main(int argc, char const *argv[])
     bst.addElement(5);
     bst.addElement(1);
     bst.display();
+    Node *node = bst.getNode(0);
+    std::cout << "\nle node a rechercher est : " << node->value << std::endl;
     return 0;
 }
