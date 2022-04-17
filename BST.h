@@ -20,11 +20,14 @@ private:
     void addHelper(Node_t *, double);
     void displayHelper(Node_t *);
     Node_t *getNodeHelper(Node_t *, double);
-
+    void removeNodeHelper(Node_t *, double);
+    double getSmallestNodeHelper(Node_t *);
+    void removeRootMatche();
 public:
     BST();
     void addElement(double);
     Node_t *getNode(double);
+    double getSmallestNode();
     void display();
 };
 #endif
