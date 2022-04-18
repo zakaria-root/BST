@@ -23,6 +23,7 @@ private:
     void removeNodeHelper(Node_t *, double);
     double getSmallestNodeHelper(Node_t *);
     void removeRootMatche();
+    void removeMatche(Node_t *, Node_t *, bool);
 public:
     BST();
     void addElement(double);
