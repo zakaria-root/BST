@@ -29,6 +29,7 @@ public:
     void addElement(double);
     Node_t *getNode(double);
     double getSmallestNode();
+    void removeNode( double);
     void display();
 };
 #endif
